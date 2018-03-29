@@ -1,0 +1,24 @@
+{
+  "name": "promisify-require",
+  "version": "0.1.0",
+  "description": "Expose a `require` function that returns a promisified version of Node-callback functions exported by the module",
+  "main": "promisify-require.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tidout/promisify-require.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tidoust/promisify-require/issues"
+  },
+  "author": {
+    "name": "tidoust",
+    "email": "fd@tidoust.net"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^3.1.0"
+  },
+  "scripts": {
+    "test": "jasmine"
+  }
+}
