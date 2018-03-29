@@ -15,6 +15,9 @@
     "email": "fd@tidoust.net"
   },
   "license": "MIT",
+  "engines": {
+    "node": ">=8.0.0"
+  },
   "devDependencies": {
     "jasmine": "^3.1.0"
   },
