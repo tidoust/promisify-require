@@ -52,6 +52,7 @@ module.exports = moduleName => {
   Object.keys(cbVersion).map(name => {
     let fn = cbVersion[name];
     if ((typeof fn === 'function') &&
+        !fn.toString().match(/class /) &&
         (callbacks.indexOf(args(fn).slice(-1)[0]) > -1)) {
       return [name, promisify(fn)];
     }
